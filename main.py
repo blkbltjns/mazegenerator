@@ -14,8 +14,6 @@ class myHandler(BaseHTTPRequestHandler):
 		self.end_headers()
 		# Send the html message
 		self.wfile.write("Hello World !")
-		if 1 == 1:
-			raise ValueError('abc')
 		return
 
 try:
